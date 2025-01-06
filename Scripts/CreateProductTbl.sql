@@ -1,0 +1,10 @@
+CREATE TABLE Products (
+    ProductId INT IDENTITY(1,1) PRIMARY KEY,
+    ProductName NVARCHAR(100) NOT NULL,
+    Price DECIMAL(18,2) NOT NULL,
+    AddedBy NVARCHAR(50) NOT NULL,
+    UpdatedOn DATETIME NULL,
+    UpdatedBy NVARCHAR(50) NULL,
+    IsAvail BIT NOT NULL DEFAULT 1,
+    UsedInShipmentId INT NULL
+);
