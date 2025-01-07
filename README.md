@@ -19,6 +19,9 @@ SysLogit is a Windows Forms application built with .NET Framework 4.7.2 that man
 - **DI Container**: Unity 5.11.10
 - **Database**: SQL Server Express
 
+### Nuget Packages
+- Closed XML
+
 ### Project Structure
 ```
 SysLogit/
